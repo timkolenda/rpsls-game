@@ -41,7 +41,7 @@ class Instructions extends Component {
         return (
             <div className="ruleContent">
                 <div className="ruleImage">
-                    <img src="../../assets/rules.png" alt="Image showing the rules for RPSLS"/>
+                    <img src={process.env.PUBLIC_URL + "../../assets/rules.png"} alt="Image showing the rules for RPSLS"/>
                 </div>
             </div>
         );
@@ -74,7 +74,7 @@ class Instructions extends Component {
                 </div>
                 <div className="instructions">
                     <div className="gameDisplay">
-                        <img src="../assets/game-display-desktop.png" alt="Image of gameboard."/>
+                        <img src={process.env.PUBLIC_URL + "../assets/game-display-desktop.png"} alt="Image of gameboard."/>
                         <div className="interactiveOverlay">
                             <div 
                                 onClick={(e) => this.handleClick(e)} 
