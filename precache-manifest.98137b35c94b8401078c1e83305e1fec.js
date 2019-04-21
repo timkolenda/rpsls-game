@@ -1,19 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "54c111c254336077ec69",
+    "revision": "b32ecef74bd2c145dbd2",
     "url": "/test-deploy/static/css/main.d4f2c02e.chunk.css"
   },
   {
-    "revision": "54c111c254336077ec69",
-    "url": "/test-deploy/static/js/main.43110cb6.chunk.js"
+    "revision": "b32ecef74bd2c145dbd2",
+    "url": "/test-deploy/static/js/main.00ba50dc.chunk.js"
   },
   {
     "revision": "847df103da4b74cc84af",
     "url": "/test-deploy/static/js/runtime~main.90bc13d1.js"
   },
   {
-    "revision": "45b3395affee735df129",
-    "url": "/test-deploy/static/js/2.e0d4ad28.chunk.js"
+    "revision": "9cbb23227353d8f0e03d",
+    "url": "/test-deploy/static/js/2.62c76ddc.chunk.js"
+  },
+  {
+    "revision": "ce8f19bd627e77ba0995574f91143385",
+    "url": "/test-deploy/static/media/background.ce8f19bd.png"
   },
   {
     "revision": "bb089555380a452dd2021e1fc234f32a",
@@ -24,11 +28,7 @@ self.__precacheManifest = [
     "url": "/test-deploy/static/media/rules.84b86c01.png"
   },
   {
-    "revision": "ce8f19bd627e77ba0995574f91143385",
-    "url": "/test-deploy/static/media/background.ce8f19bd.png"
-  },
-  {
-    "revision": "816beaa282f049adbb31513f666d90e0",
+    "revision": "a733f6be430562863b5a4b8972deea3f",
     "url": "/test-deploy/index.html"
   }
 ];
