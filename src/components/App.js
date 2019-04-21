@@ -10,12 +10,12 @@ import Menu from './Menu';
 import Results from './Results';
 
 import background from '../backgroundImage/background.png';
-// import options from '../utils/options';
-// import firebase from '../database/firebase/firebase';
-// import history from '../utils/history';
+import options from '../utils/options';
+import firebase from '../database/firebase/firebase';
+import history from '../utils/history';
 
 
-// const dbRef = firebase.database().ref();
+const dbRef = firebase.database().ref();
 
 class App extends Component {
     state = {
@@ -30,76 +30,76 @@ class App extends Component {
         recoveryDataExists: false,
     }
 
-    // componentDidMount() {
-    //     this.updateWindow();
-    //     window.addEventListener("resize", this.updateWindow);
-    // }
+    componentDidMount() {
+        this.updateWindow();
+        window.addEventListener("resize", this.updateWindow);
+    }
 
-    // updateWindow = () => {
-    //     this.setState({
-    //         windowWidth: window.innerWidth,
-    //         windowHeight: window.innerHeight
-    //     });
-    // }
+    updateWindow = () => {
+        this.setState({
+            windowWidth: window.innerWidth,
+            windowHeight: window.innerHeight
+        });
+    }
 
-    // handleChange = (e, testValue) => {
-    //     this.setState({ [e.target.id]: e.target.value }, () => testValue());
-    // }
+    handleChange = (e, testValue) => {
+        this.setState({ [e.target.id]: e.target.value }, () => testValue());
+    }
 
-    // checkForPlayerNameReady = () => {
-    //     if (
-    //         this.state.playerName !== "Enter a nickname"
-    //         && this.state.playerName !== ""
-    //         && this.state.playerName !== " "
-    //         && this.state.playerName !== "  "
-    //         && this.state.playerName !== "   "
-    //     ) {
-    //         this.setState({ playerNameReady: true });
-    //     } else {
-    //         this.setState({ playerNameReady: false });
-    //     }
-    // }
+    checkForPlayerNameReady = () => {
+        if (
+            this.state.playerName !== "Enter a nickname"
+            && this.state.playerName !== ""
+            && this.state.playerName !== " "
+            && this.state.playerName !== "  "
+            && this.state.playerName !== "   "
+        ) {
+            this.setState({ playerNameReady: true });
+        } else {
+            this.setState({ playerNameReady: false });
+        }
+    }
 
-    // handleNewPlayerFormSubmit = (e) => {
-    //     e.preventDefault();
-    //     this.addNewPlayerToFirebase();
-    // }
+    handleNewPlayerFormSubmit = (e) => {
+        e.preventDefault();
+        this.addNewPlayerToFirebase();
+    }
 
-    // addNewPlayerToFirebase = () => {
-    //     const newPlayer = {
-    //         name: this.state.playerName,
-    //         win: this.state.win,
-    //         lose: this.state.lose,
-    //         tie: this.state.tie
-    //     }
-    //     dbRef.push(newPlayer).then((snap) => {
-    //         this.setState({ id: snap.key });
-    //     });
-    // }
+    addNewPlayerToFirebase = () => {
+        const newPlayer = {
+            name: this.state.playerName,
+            win: this.state.win,
+            lose: this.state.lose,
+            tie: this.state.tie
+        }
+        dbRef.push(newPlayer).then((snap) => {
+            this.setState({ id: snap.key });
+        });
+    }
 
-    // updateFirebase = (type) => {
-    //     dbRef.child(this.state.id).child(type).set(this.state[type]);
-    // }
+    updateFirebase = (type) => {
+        dbRef.child(this.state.id).child(type).set(this.state[type]);
+    }
 
-    // updateCount = (type) => {
-    //     this.setState({ [type]: this.state[type] + 1 }, () => this.updateFirebase(type));
-    // }
+    updateCount = (type) => {
+        this.setState({ [type]: this.state[type] + 1 }, () => this.updateFirebase(type));
+    }
 
-    // setRecoveryDataState = () => {
-    //     this.setState({ recoveryDataExists: true });
-    // }
+    setRecoveryDataState = () => {
+        this.setState({ recoveryDataExists: true });
+    }
 
-    // resetGame = () => {
-    //     this.setState({
-    //         playerName: '',
-    //         playerNameReady: false,
-    //         tie: 0,
-    //         win: 0,
-    //         lose: 0,
-    //         id: '',
-    //         recoveryDataExists: '',
-    //     });
-    // }
+    resetGame = () => {
+        this.setState({
+            playerName: '',
+            playerNameReady: false,
+            tie: 0,
+            win: 0,
+            lose: 0,
+            id: '',
+            recoveryDataExists: '',
+        });
+    }
 
     render() {
         const backgroundImg = {
