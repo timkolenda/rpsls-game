@@ -5,6 +5,7 @@ import Modal from './Modal';
 import history from '../utils/history';
 
 import gameDisplayImage from '../assets/game-display-desktop.png';
+import gameRulesImage from '../assets/rules.png';
 
 
 class Instructions extends Component {
@@ -43,7 +44,7 @@ class Instructions extends Component {
         return (
             <div className="ruleContent">
                 <div className="ruleImage">
-                    <img src={process.env.PUBLIC_URL + "../../assets/rules.png"} alt="Image showing the rules for RPSLS"/>
+                    <img src={gameRulesImage} alt="Image showing the rules for RPSLS"/>
                 </div>
             </div>
         );
