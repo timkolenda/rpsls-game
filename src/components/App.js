@@ -111,13 +111,13 @@ class App extends Component {
                 <div className="appWrapper">
                     <Route exact path="/" exact render={(props) => (
                         <Login
-                            // history={history}
-                            // playerName={this.state.playerName}
-                            // playerNameReady={this.state.playerNameReady}
-                            // handleChange={this.handleChange}
-                            // handleNewPlayerFormSubmit={this.handleNewPlayerFormSubmit}
-                            // addNewPlayerToFirebase={this.addNewPlayerToFirebase}
-                            // checkForPlayerNameReady={this.checkForPlayerNameReady}
+                            history={history}
+                            playerName={this.state.playerName}
+                            playerNameReady={this.state.playerNameReady}
+                            handleChange={this.handleChange}
+                            handleNewPlayerFormSubmit={this.handleNewPlayerFormSubmit}
+                            addNewPlayerToFirebase={this.addNewPlayerToFirebase}
+                            checkForPlayerNameReady={this.checkForPlayerNameReady}
                         />)}
                     />
                     <Route path="/game" exact render={(props) => (
