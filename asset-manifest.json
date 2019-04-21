@@ -1,11 +1,12 @@
 {
-  "main.js": "/test-deploy/static/js/main.385c63db.chunk.js",
-  "main.js.map": "/test-deploy/static/js/main.385c63db.chunk.js.map",
+  "main.js": "/test-deploy/static/js/main.b4429788.chunk.js",
+  "main.js.map": "/test-deploy/static/js/main.b4429788.chunk.js.map",
   "runtime~main.js": "/test-deploy/static/js/runtime~main.90bc13d1.js",
   "runtime~main.js.map": "/test-deploy/static/js/runtime~main.90bc13d1.js.map",
-  "static/js/2.b84492dd.chunk.js": "/test-deploy/static/js/2.b84492dd.chunk.js",
-  "static/js/2.b84492dd.chunk.js.map": "/test-deploy/static/js/2.b84492dd.chunk.js.map",
+  "static/js/2.e4127d6a.chunk.js": "/test-deploy/static/js/2.e4127d6a.chunk.js",
+  "static/js/2.e4127d6a.chunk.js.map": "/test-deploy/static/js/2.e4127d6a.chunk.js.map",
   "index.html": "/test-deploy/index.html",
-  "precache-manifest.ac6774e4dddc034418fba22bed2b4515.js": "/test-deploy/precache-manifest.ac6774e4dddc034418fba22bed2b4515.js",
-  "service-worker.js": "/test-deploy/service-worker.js"
+  "precache-manifest.3d98b1fd9a2792cf2c6e9fe768cba296.js": "/test-deploy/precache-manifest.3d98b1fd9a2792cf2c6e9fe768cba296.js",
+  "service-worker.js": "/test-deploy/service-worker.js",
+  "static/media/background.png": "/test-deploy/static/media/background.ce8f19bd.png"
 }
