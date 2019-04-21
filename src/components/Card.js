@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import cardBack from '../assets/background.png';
+
 class Card extends Component {
     state = {squareDimension: 0}
 
@@ -41,7 +43,7 @@ class Card extends Component {
                         className={`card__display card__display--back`} 
                         style={window.innerWidth < 750 ? squareStyle : null} 
                     >
-                        <img src='../../assets/background.png' alt='image for the back of the card' />
+                        <img src={cardBack} alt='image for the back of the card' />
                     </div>
                     <div 
                         className={`card__display card__display--front`} 
