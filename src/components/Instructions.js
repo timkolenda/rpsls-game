@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import Modal from './Modal';
 import history from '../utils/history';
 
+import gameDisplayImage from '../assets/game-display-desktop.png';
+
 
 class Instructions extends Component {
     state = {
@@ -74,7 +76,7 @@ class Instructions extends Component {
                 </div>
                 <div className="instructions">
                     <div className="gameDisplay">
-                        <img src={process.env.PUBLIC_URL + "../assets/game-display-desktop.png"} alt="Image of gameboard."/>
+                        <img src={gameDisplayImage} alt="Image of gameboard."/>
                         <div className="interactiveOverlay">
                             <div 
                                 onClick={(e) => this.handleClick(e)} 
