@@ -122,18 +122,17 @@ class App extends Component {
                     />
                     <Route path="/game" exact render={(props) => (
                         <Game
-                            // history={history}
-                            // playerName={this.state.playerName}
-                            // updateCount={this.updateCount}
-                            // windowWidth={this.state.windowWidth}
-                            // windowHeight={this.state.windowHeight}
-                            // id={this.state.id}
-                            // setRecoveryDataState={this.setRecoveryDataState}
-                            // tie={this.state.tie}
-                            // win={this.state.win}
-                            // lose={this.state.lose}
-                            // recoveryDataExists={this.state.recoveryDataExists}
-
+                            history={history}
+                            playerName={this.state.playerName}
+                            updateCount={this.updateCount}
+                            windowWidth={this.state.windowWidth}
+                            windowHeight={this.state.windowHeight}
+                            id={this.state.id}
+                            setRecoveryDataState={this.setRecoveryDataState}
+                            tie={this.state.tie}
+                            win={this.state.win}
+                            lose={this.state.lose}
+                            recoveryDataExists={this.state.recoveryDataExists}
                         />)}
                     />
                     <Route path="/menu" exact render={(props) => (
