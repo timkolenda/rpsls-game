@@ -90,6 +90,7 @@ class App extends Component {
     }
 
     resetGame = () => {
+        console.log('run');
         this.setState({
             playerName: '',
             playerNameReady: false,
@@ -137,20 +138,20 @@ class App extends Component {
                     />
                     <Route path="/menu" exact render={(props) => (
                         <Menu
-                            // recoverCurrentGameData={this.recoverCurrentGameData}
-                            // resetGame={this.resetGame}
+                            recoverCurrentGameData={this.recoverCurrentGameData}
+                            resetGame={this.resetGame}
                         />)}
                     />
                     <Route path="/instructions" exact render={(props) => (<Instructions />)} />
                     <Route path="/leaderboard" exact render={(props) => (<Leaderboard />)} />
                     <Route path="/results" exact render={(props) => (
                         <Results
-                            // resetGame={this.resetGame}
-                            // tieCount={this.state.tie}
-                            // playerWinCount={this.state.win}
-                            // compWinCount={this.state.lose}
-                            // playerName={this.state.playerName}
-                            // history={history}
+                            resetGame={this.resetGame}
+                            tieCount={this.state.tie}
+                            playerWinCount={this.state.win}
+                            compWinCount={this.state.lose}
+                            playerName={this.state.playerName}
+                            history={history}
                         />)}
                     />
                 </div>
