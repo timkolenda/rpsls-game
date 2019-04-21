@@ -2,7 +2,7 @@
   "name": "test-deploy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://timkolenda.github.io/test-deploy",
+  "homepage": "https://timkolenda.github.io/rpsls-game",
   "dependencies": {
     "firebase": "^5.10.0",
     "gh-pages": "^2.0.1",
