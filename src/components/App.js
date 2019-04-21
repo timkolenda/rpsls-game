@@ -9,7 +9,7 @@ import Leaderboard from './Leaderboard';
 import Menu from './Menu';
 import Results from './Results';
 
-// import background from '../backgroundImage/background.png';
+import background from '../backgroundImage/background.png';
 // import options from '../utils/options';
 // import firebase from '../database/firebase/firebase';
 // import history from '../utils/history';
@@ -102,12 +102,12 @@ class App extends Component {
     // }
 
     render() {
-        // const backgroundImg = {
-        //     backgroundImage: `linear-gradient(to bottom, rgba(205, 169, 157, 0.7), rgba(205, 169, 157, 0.7)), url(${background})`
-        // }
+        const backgroundImg = {
+            backgroundImage: `linear-gradient(to bottom, rgba(205, 169, 157, 0.7), rgba(205, 169, 157, 0.7)), url(${background})`
+        }
         return (
             // <div>App</div>
-            <div className="app" >
+            <div className="app" style={backgroundImg}>
                 <div className="appWrapper">
                     <Route exact path="/" exact render={(props) => (
                         <Login
