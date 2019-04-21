@@ -1,14 +1,15 @@
 {
   "main.css": "/test-deploy/static/css/main.d4f2c02e.chunk.css",
-  "main.js": "/test-deploy/static/js/main.c9add101.chunk.js",
-  "main.js.map": "/test-deploy/static/js/main.c9add101.chunk.js.map",
+  "main.js": "/test-deploy/static/js/main.24abb41b.chunk.js",
+  "main.js.map": "/test-deploy/static/js/main.24abb41b.chunk.js.map",
   "runtime~main.js": "/test-deploy/static/js/runtime~main.90bc13d1.js",
   "runtime~main.js.map": "/test-deploy/static/js/runtime~main.90bc13d1.js.map",
-  "static/js/2.a0bdb72a.chunk.js": "/test-deploy/static/js/2.a0bdb72a.chunk.js",
-  "static/js/2.a0bdb72a.chunk.js.map": "/test-deploy/static/js/2.a0bdb72a.chunk.js.map",
+  "static/js/2.344be216.chunk.js": "/test-deploy/static/js/2.344be216.chunk.js",
+  "static/js/2.344be216.chunk.js.map": "/test-deploy/static/js/2.344be216.chunk.js.map",
   "index.html": "/test-deploy/index.html",
-  "precache-manifest.d2b99e1901a81862f63ed66c7757808e.js": "/test-deploy/precache-manifest.d2b99e1901a81862f63ed66c7757808e.js",
+  "precache-manifest.849cecfef14cbf9b598f86c7ed4e9a8a.js": "/test-deploy/precache-manifest.849cecfef14cbf9b598f86c7ed4e9a8a.js",
   "service-worker.js": "/test-deploy/service-worker.js",
   "static/css/main.d4f2c02e.chunk.css.map": "/test-deploy/static/css/main.d4f2c02e.chunk.css.map",
-  "static/media/background.png": "/test-deploy/static/media/background.ce8f19bd.png"
+  "static/media/background.png": "/test-deploy/static/media/background.ce8f19bd.png",
+  "static/media/game-display-desktop.png": "/test-deploy/static/media/game-display-desktop.bb089555.png"
 }
