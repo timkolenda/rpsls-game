@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5857f8e9231abab73992",
+    "revision": "617edf37504f1fb3cf16",
     "url": "/rpsls-game/static/css/main.56660b12.chunk.css"
   },
   {
-    "revision": "5857f8e9231abab73992",
-    "url": "/rpsls-game/static/js/main.5b438631.chunk.js"
+    "revision": "617edf37504f1fb3cf16",
+    "url": "/rpsls-game/static/js/main.5a9f55de.chunk.js"
   },
   {
     "revision": "4705b773e1cc9c4a83b8",
@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/rpsls-game/static/media/background.ce8f19bd.png"
   },
   {
-    "revision": "bb089555380a452dd2021e1fc234f32a",
-    "url": "/rpsls-game/static/media/game-display-desktop.bb089555.png"
+    "revision": "1b918a6d1e4009f9fdd65d70582c8f4a",
+    "url": "/rpsls-game/static/media/game-display-desktop.1b918a6d.png"
   },
   {
     "revision": "84b86c0134636d365a3939b3eddb13f2",
     "url": "/rpsls-game/static/media/rules.84b86c01.png"
   },
   {
-    "revision": "8ed5bc77cbeea7900340708d81de23b8",
+    "revision": "89147008b8a431b8f7acda0509cca994",
     "url": "/rpsls-game/index.html"
   }
 ];
