@@ -12,7 +12,7 @@ class Card extends Component {
 
     updateDimensions = () => {
         const windowSize = window.innerWidth;
-        const squareDimension = windowSize / 2;
+        const squareDimension = windowSize / 1.8;
         this.setState({ squareDimension });
     }
 
@@ -29,6 +29,18 @@ class Card extends Component {
             width: this.state.squareDimension,
             height: this.state.squareDimension
         }
+
+        const cardBackStyleSquare = {
+            backgroundImage: `url(${cardBack})`,
+            backgroundSize: `500%`,
+            width: this.state.squareDimension,
+            height: this.state.squareDimension
+        }
+
+        const cardBackStyle = {
+            backgroundImage: `url(${cardBack})`,
+            backgroundSize: 'cover'
+        }
         
         return (
             <div 
@@ -41,14 +53,14 @@ class Card extends Component {
                 >
                     <div 
                         className={`card__display card__display--back`} 
-                        style={window.innerWidth < 750 ? squareStyle : null} 
+                        style={window.innerWidth < 750 ? cardBackStyleSquare : cardBackStyle}
                     >
-                        <img src={cardBack} alt='image for the back of the card' />
+                        {/* <img src={cardBack} alt='image for the back of the card' /> */}
                     </div>
                     <div 
                         className={`card__display card__display--front`} 
                         style={window.innerWidth < 750 ? squareStyle : null} 
-                    >
+                >
                         <img src={this.props.image} alt='played card image' />
                         {/* {setTimeout(() => {this.renderVictoryMessage()}, 500)} */}
                         {this.renderVictoryMessage()}

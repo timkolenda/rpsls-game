@@ -266,7 +266,7 @@ class Game extends Component {
                             playerCardImage={this.state.playerCardImage}
                             compCardImage={this.state.compCardImage}
                             roundResult={this.state.roundResult}
-                        />
+                    />
                         {window.innerWidth < 750 ? null : this.renderAdmin()}
                     </div>
                 </div>

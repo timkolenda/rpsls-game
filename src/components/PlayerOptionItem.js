@@ -18,7 +18,7 @@ class PlayerOptionItem extends Component{
     
     updateDimensions = () => {
         const windowSize = window.innerWidth;
-        const squareDimension = windowSize / 5;
+        const squareDimension = windowSize / 4.8;
         this.setState({ squareDimension });
     }
 
