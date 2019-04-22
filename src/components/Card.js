@@ -12,7 +12,7 @@ class Card extends Component {
 
     updateDimensions = () => {
         const windowSize = window.innerWidth;
-        const squareDimension = windowSize / 1.55;
+        const squareDimension = windowSize / 2;
         this.setState({ squareDimension });
     }
 
