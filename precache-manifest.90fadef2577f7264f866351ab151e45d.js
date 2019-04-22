@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ee245f0c98c1c2cbf1f9",
-    "url": "/rpsls-game/static/css/main.004f13a2.chunk.css"
+    "revision": "75a1fbae57a1970245f6",
+    "url": "/rpsls-game/static/css/main.e77b25df.chunk.css"
   },
   {
-    "revision": "ee245f0c98c1c2cbf1f9",
-    "url": "/rpsls-game/static/js/main.a113f9fd.chunk.js"
+    "revision": "75a1fbae57a1970245f6",
+    "url": "/rpsls-game/static/js/main.a625c201.chunk.js"
   },
   {
     "revision": "4705b773e1cc9c4a83b8",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/rpsls-game/static/media/rules.84b86c01.png"
   },
   {
-    "revision": "2555c264a655fd670431bd5566a2e32b",
+    "revision": "6621ecb8b3ef6f26f100f0f1163b1beb",
     "url": "/rpsls-game/index.html"
   }
 ];
