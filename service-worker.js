@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rpsls-game/precache-manifest.a6126d9da09ba4b07e1fba71cc0e01bb.js"
+  "/rpsls-game/precache-manifest.cd45563bb73fb6994dfbcbd53124b8ce.js"
 );
 
 workbox.clientsClaim();

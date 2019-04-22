@@ -1,5 +1,5 @@
 {
-  "main.css": "/rpsls-game/static/css/main.e77b25df.chunk.css",
+  "main.css": "/rpsls-game/static/css/main.e7e7d8bf.chunk.css",
   "main.js": "/rpsls-game/static/js/main.5b438631.chunk.js",
   "main.js.map": "/rpsls-game/static/js/main.5b438631.chunk.js.map",
   "runtime~main.js": "/rpsls-game/static/js/runtime~main.4cd2ea22.js",
@@ -7,9 +7,9 @@
   "static/js/2.2c33db99.chunk.js": "/rpsls-game/static/js/2.2c33db99.chunk.js",
   "static/js/2.2c33db99.chunk.js.map": "/rpsls-game/static/js/2.2c33db99.chunk.js.map",
   "index.html": "/rpsls-game/index.html",
-  "precache-manifest.a6126d9da09ba4b07e1fba71cc0e01bb.js": "/rpsls-game/precache-manifest.a6126d9da09ba4b07e1fba71cc0e01bb.js",
+  "precache-manifest.cd45563bb73fb6994dfbcbd53124b8ce.js": "/rpsls-game/precache-manifest.cd45563bb73fb6994dfbcbd53124b8ce.js",
   "service-worker.js": "/rpsls-game/service-worker.js",
-  "static/css/main.e77b25df.chunk.css.map": "/rpsls-game/static/css/main.e77b25df.chunk.css.map",
+  "static/css/main.e7e7d8bf.chunk.css.map": "/rpsls-game/static/css/main.e7e7d8bf.chunk.css.map",
   "static/media/background.png": "/rpsls-game/static/media/background.ce8f19bd.png",
   "static/media/game-display-desktop.png": "/rpsls-game/static/media/game-display-desktop.bb089555.png",
   "static/media/rules.png": "/rpsls-game/static/media/rules.84b86c01.png"
